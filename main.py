@@ -8,4 +8,4 @@ response = requests.get(url)
 data = response.json()
 
 graph = build_graph(data['rates'])
-bellman_ford_arbitrage(graph, 'BTC')
+print(bellman_ford_arbitrage(graph, 'BTC'))

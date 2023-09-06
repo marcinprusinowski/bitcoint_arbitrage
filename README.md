@@ -12,6 +12,9 @@ A recommended python version: 3.7.9
 python -m venv venv 
 ```
 ```
+source venv/bin/activate 
+```
+```
 pip install -r requirements.txt
 ```
 ```
