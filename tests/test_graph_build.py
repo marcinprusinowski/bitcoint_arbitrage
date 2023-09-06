@@ -70,33 +70,6 @@ class TestBuildGraphMethod(unittest.TestCase):
             for weight in weights.values():
                 self.assertGreaterEqual(weight, 0)
 
-    def test_build_graph(self):
-        # Given
-        exchange_rates = {
-            "BTC-BTC": "1.00000000",
-            "BTC-CHSB": "0.00000499",
-            "BTC-DAI": "0.00003830",
-            "BTC-EUR": "0.00004109",
-            "CHSB-BTC": "199126.80682993",
-            "CHSB-CHSB": "1.00000000",
-            "CHSB-DAI": "7.92796971",
-            "CHSB-EUR": "8.30466748",
-            "DAI-BTC": "25329.62752750",
-            "DAI-CHSB": "0.12531293",
-            "DAI-DAI": "1.00000000",
-            "DAI-EUR": "1.08182069",
-            "EUR-BTC": "24185.01694493",
-            "EUR-CHSB": "0.11682889",
-            "EUR-DAI": "0.91827610",
-            "EUR-EUR": "1.00000000"
-        }
-
-        # When
-        graph = build_graph(exchange_rates)
-
-        print(graph)
-
-
 
 if __name__ == '__main__':
     unittest.main()

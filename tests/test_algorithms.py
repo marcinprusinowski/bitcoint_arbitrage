@@ -142,3 +142,6 @@ class TestArbitrageAlgorithm(unittest.TestCase):
 
         # Then
         self.assertIsNone(arbitrage_cycle)
+
+if __name__ == '__main__':
+    unittest.main()

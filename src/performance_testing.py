@@ -25,16 +25,14 @@ dijkstra_times_2 = []
 floyd_times_2 = []
 
 for size in range(10000, 15000, 1000):
-    print(f"running size {size}")
     currencies = generate_currencies(size)
     rates = generate_rates(currencies)
     rates_graph = build_graph(rates)
 
-
     floyd_time = timeit(lambda: floyd_warshall_negative_cycle(rates_graph), number=1)
     dijkstra_time = timeit(lambda: dijkstra_arbitrage(rates_graph, currencies[0]), number=1)
 
-    # floyd_times_2.append(floyd_time)
+    floyd_times_2.append(floyd_time)
     dijkstra_times_2.append(dijkstra_time)
 
 plt.figure(figsize=(10, 6))
