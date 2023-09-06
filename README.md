@@ -73,7 +73,7 @@ log(c1) + log(c2) + … + log(cn) > 0 | * (-1)
 ```
 Extract (-1) out of braces
 ```
-(-log(c1)) + (-log(c2)) + … + (-log(wn)) < 0
+(-log(c1)) + (-log(c2)) + … + (-log(cn)) < 0
 ```
 
 ### Bellman Ford, Dijkstra and Floyd Warshall
