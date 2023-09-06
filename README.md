@@ -1,4 +1,9 @@
-# What's inside
+## Table of Contents
+1. [What's inside](#What's inside)
+2. [How to run it](#How to run it)
+2. [Solution](#Solution)
+
+## What's inside
 
 `src` the source code  
 
@@ -20,6 +25,8 @@ pip install -r requirements.txt
 ```
 python main.py
 ```
+
+## Solution
 ### What is an Arbitrage ?
 
 
