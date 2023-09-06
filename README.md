@@ -1,6 +1,6 @@
 ## Table of Contents
-1. [What's inside](#What's inside)
-2. [How to run it](#How to run it)
+1. [What's inside](#What's-inside)
+2. [How to run it](#How-to-run-it)
 2. [Solution](#Solution)
 
 ## What's inside
